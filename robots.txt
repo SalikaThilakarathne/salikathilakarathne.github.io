@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://salikathilakarathne.github.io/sitemap.xml
