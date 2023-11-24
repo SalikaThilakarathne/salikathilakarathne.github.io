@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: use of neural nets for erosion prediction.
+description: creating an artifical neural network
 img:
 importance: 3
 category: fun
