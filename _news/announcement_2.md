@@ -1,12 +1,12 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: PhD graduation
+date: 2023-09-15
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+2023 Fall graduation of YNU was held at the Tokiwadai Campus. Tri, Gelfi and I were the three graduates from coastal lab.
 
 ***
 
