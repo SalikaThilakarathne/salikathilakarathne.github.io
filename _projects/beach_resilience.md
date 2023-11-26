@@ -2,15 +2,14 @@
 layout: page
 title: beach resilience to storm-induced erosion
 description: what contributes to beach profile recovery after significant erosion events.
-img: assets/img/fig_brn_storm_sel_methd.pdf
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: thilakarathne_2023_machine
 ---
 
 Currently working on this project. The beach recovery is checked in the 10-day post-storm period. A storm data set of 347 is used.
 
-A lot of content to be updated, more work to be done. Following function was used to check the profile change during a storm event.
+A lot of content to be updated, more work to be done. Following function was used to check the profile change during a storm event. This is a continuation from the susceptibility quantification approach.
 
     ---
     def prof_change_temp(start,end):
