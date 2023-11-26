@@ -10,7 +10,7 @@ thumbnail: assets/img/jogashima_1.jpg
 ---
 
 
-This blog is with image galleries, some by me and some by K.
+This blog is with image galleries, some clicked by me and some by K.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
