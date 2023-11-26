@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>618 Env. Bldg. S7-5,</p>
-    <p>Tokiwadai 79-1, Yokohama, 240-0081</p>
+    <p>Tokiwadai 79-1, Yokohama, 240-8501</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
