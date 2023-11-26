@@ -3,8 +3,8 @@ layout: page
 title: use of neural nets for erosion prediction.
 description: creating an artifical neural network
 img:
-importance: 3
-category: fun
+importance: 2
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
