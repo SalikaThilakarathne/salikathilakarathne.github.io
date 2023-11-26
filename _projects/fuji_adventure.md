@@ -1,22 +1,22 @@
 ---
 layout: page
 title: fuji hike 2019
-description: overnight hike of fuji san':' with almost no preparatoin
+description: overnight hike of fuji san: with almost no preparatoin
 img:
 importance: 4
 category: fun
 ---
 
-A brief of my proposal on Nature-based Solutions to mitigate damages from storm-induced beach erosion.
+Gadgets from Daiso and was a rainy day, but that did not stop us...
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,14 +32,7 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+
 
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
