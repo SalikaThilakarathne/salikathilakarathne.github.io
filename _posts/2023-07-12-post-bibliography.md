@@ -1,6 +1,6 @@
 ---
 layout: post
-title: a family visit to Hakone: ashi lake, volcanos and more
+title: a family visit to Hakone':' ashi lake, volcanos and more
 date: 2023-09-20
 description: an example of a blog post with bibliography
 tags: formatting bib
