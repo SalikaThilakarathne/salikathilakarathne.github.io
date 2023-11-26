@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-At the 48<sup>th</sub> Ocean Development Symposium, Hokkaido, Japan.
+At the 48<sup>th</sup> Ocean Development Symposium, Hokkaido, Japan.
 
 ***
 <div class="row">
