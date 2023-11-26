@@ -1,6 +1,6 @@
 ---
 layout: page
-title: fuji_hike
+title: fuji hike 2019
 description: overnight hike of fuji san':' with almost no preparatoin
 img:
 importance: 4
