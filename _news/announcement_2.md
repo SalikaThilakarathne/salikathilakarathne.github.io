@@ -6,10 +6,9 @@ inline: false
 related_posts: false
 ---
 
-2023 Fall graduation of YNU was held at the Tokiwadai Campus. Tri, Gelfi and I were the three graduates from coastal lab.
+2023 Fall graduation of YNU was held at the Tokiwadai Campus, YNU. Tri, Gelfi and I were the three graduates from coastal lab.
 
 ***
-
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -17,5 +16,5 @@ related_posts: false
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+    Captured by Martin Sensei.
+
