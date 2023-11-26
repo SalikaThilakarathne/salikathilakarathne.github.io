@@ -4,3 +4,11 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"KAIGAN":
+  url: https://www.jstage.jst.go.jp/browse/kaigan/-char/en
+  color: "#023e8a"
+
+"JoJSCE":
+  url: https://www.jstage.jst.go.jp/browse/journalofjsce/-char/en
+  color: "#023e8a"
