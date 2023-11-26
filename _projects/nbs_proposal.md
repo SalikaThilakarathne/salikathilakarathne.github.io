@@ -3,7 +3,7 @@ layout: page
 title: NbS
 description: nature based solutions for beach erosion
 img:
-importance: 4
+importance: 3
 category: work
 ---
 
