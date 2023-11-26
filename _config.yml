@@ -10,8 +10,8 @@ email: salika-thilakarathne-vd@ynu.ac.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
-Powered by Jekyll with al-folio theme</a>.
-Hosted by GitHub Pages.
+# Powered by Jekyll with al-folio theme</a>.
+# Hosted by GitHub Pages.
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: # add your own keywords or leave empty
 
