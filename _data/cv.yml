@@ -4,7 +4,7 @@
     - name: Full Name
       value: Salika Thilakarathne
     - name: Email
-      value: salikathilakarathne[add_at_here]hotmail.com
+      value: salika-thilakarathne-vd@ynu.ac.jp
     - name: Languages
       value: English, Japanese
 
@@ -46,7 +46,7 @@
       year: 2020-now
       description: A novel appraoch to quantify beach properties related to their susceptibility and resilience to storm-induced erosion.
 
-- title: Honors and Awards
+- title: Awards and Scholarships
   type: time_table
   contents:
     - year: 2019
@@ -54,18 +54,18 @@
         - Tokyo Institute of Technology AOTULE Summer Program Award
     - year: 2020
       items: 
-        - Japanese Government (MEXT) Scholarship (2020)':' Full doctoral scholarship recommended by the Department of Civil Engineering, Yokohama National University
+        - Japanese Government (MEXT) Scholarship (2020)$:$ Full doctoral scholarship recommended by the Department of Civil Engineering, Yokohama National University
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Coastal Engineering
       items: 
-        - Description 1.
-        - Description 2.
+        - Nearshore morphodynamics
+        - Beach vulnerability
     - title: Catchment hydrology and urban flooding
       items:
-        - Description 1.
+        - Numerical simulation<:> HEC-RAS
         - Description 2.
 
 - title: Other Interests
