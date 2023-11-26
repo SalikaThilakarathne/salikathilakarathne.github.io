@@ -1,7 +1,7 @@
 ---
 layout: page
 title: fuji_hike
-description: overnight hike of fuji san: with almost no preparatoin
+description: overnight hike of fuji san':' with almost no preparatoin
 img:
 importance: 4
 category: fun
