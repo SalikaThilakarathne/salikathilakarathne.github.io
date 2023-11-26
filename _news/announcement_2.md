@@ -9,7 +9,6 @@ related_posts: false
 2023 Fall graduation of YNU was held at the Tokiwadai Campus, YNU. Tri, Gelfi and I were the three graduates from coastal lab.
 
 ***
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/graduation.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
