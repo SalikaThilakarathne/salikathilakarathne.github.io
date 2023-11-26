@@ -20,4 +20,4 @@ social: true  # includes social icons at the bottom of the page
 
 I am a postdoc researcher passionate about unraveling the complexities of nearshore morphodynamics under storm conditions, with a keen interest in the novel applications in coastal engineering tools. My research journey extends to exploring beach vulnerability and hazards in water engineering, delving into the dynamic interplay between natural forces and human infrastructure.
 
-Currently, my personal web-page is under construction, and while much of the content is derived from a forked page, I am excited to soon unveil a platform that encapsulates my unique experiences and contributions. Thank you for your understanding as I work on bringing my digital space to life.
+Currently, my personal web-page is under construction, and while some of the content is still derived from a forked page, I expect to soon unveil a platform that encapsulates my unique experiences and contributions. Thank you for your understanding as I work on bringing my digital space to life.
