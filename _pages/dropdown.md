@@ -12,5 +12,5 @@ children:
       permalink: /projects/
     - title: divider
     - title: news
-      permalink: /projects/
+      permalink: /news/
 ---
