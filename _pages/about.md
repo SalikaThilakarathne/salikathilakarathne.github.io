@@ -12,7 +12,7 @@ profile:
     <p>618 Env. Bldg. S7-5,</p>
     <p>Tokiwadai 79-1, Yokohama, 240-8501</p>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
