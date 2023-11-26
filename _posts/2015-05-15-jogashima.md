@@ -24,8 +24,7 @@ This blog is with image galleries, some clicked by me and some by K.
     Almost the sunset, but it is only 4 O'clock.
 </div>
 
-You can zoom these images, all clicked at Jogashima.
-# Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
+You can zoom these images, all clicked at Jogashima. # Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
