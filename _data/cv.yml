@@ -15,10 +15,10 @@
       institution: Yokohama National University, Yokohama, Japan
       year: 2023
       description:
-        - title: Assessing the Beach Vulnerability to Storm-induced Erosion using an Index-based Approach.
+        - title: Assessing the Beach Vulnerability to Storm-induced Erosion using an Index-based Approach
           contents:
-            - Development of a beach vulnerability index.
-            - Comprehensive discussions on beach vulnerability quantifications.
+            - Development of a beach vulnerability index
+            - Comprehensive discussions on beach vulnerability quantifications
     - title: Master of Science
       institution: University of Moratuwa, Moratuwa, Sri Lanka
       year: 2019
@@ -54,7 +54,7 @@
         - Tokyo Institute of Technology AOTULE Summer Program Award
     - year: 2020
       items: 
-        - Japanese Government (MEXT) Scholarship (2020)$:$ Full doctoral scholarship recommended by the Department of Civil Engineering, Yokohama National University
+        - 'Japanese Government (MEXT) Scholarship (2020): Full doctoral scholarship recommended by the Dept of Civil Engineering, Yokohama National University'
 
 - title: Academic Interests
   type: nested_list
@@ -65,8 +65,8 @@
         - Beach vulnerability
     - title: Catchment hydrology and urban flooding
       items:
-        - Numerical simulation<:> HEC-RAS
-        - Description 2.
+        - 'Numerical simulation: HEC-RAS'
+        - Inundation mapping in Geographic information systems
 
 - title: Other Interests
   type: list
