@@ -10,8 +10,8 @@ email: salika-thilakarathne-vd@ynu.ac.jp
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   
 footer_text: >
-  'Powered by Jekyll with al-folio theme.'
-  'Hosted by GitHub Pages.'
+  Powered by Jekyll with al-folio theme.
+  Hosted by GitHub Pages.
 keywords: # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -76,7 +76,7 @@ scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
-medium_username: salikathilakarathne # your Medium username
+medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
@@ -147,7 +147,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: salika # put your disqus shortname
+disqus_shortname: salika_disqus # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
