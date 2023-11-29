@@ -3,7 +3,7 @@ layout: post
 title:  a visit to Jogashima island
 date: 2023-11-25 
 description: one-day trip to this beautiful island at the southern tip of the Miura Peninsula
-tags: travel 
+tags: travel yes
 categories: personal
 featured: true
 thumbnail: assets/img/jogashima_1.jpg
