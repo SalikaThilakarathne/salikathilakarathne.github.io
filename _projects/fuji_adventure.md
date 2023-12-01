@@ -8,7 +8,7 @@ category: fun
 ---
 
 Gadgets from Daiso and was a rainy day, but that did not stop us...
-
+***
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/fuji.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -18,4 +18,3 @@ Gadgets from Daiso and was a rainy day, but that did not stop us...
     An image of fuji from https://www.pexels.com.
 </div>
 
-{% endraw %}
