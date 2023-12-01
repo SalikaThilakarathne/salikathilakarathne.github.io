@@ -6,7 +6,7 @@
     - name: Email
       value: salika-thilakarathne-vd@ynu.ac.jp
     - name: Languages
-      value: English, Japanese
+      value: Sinhala, English, Japanese
 
 - title: Education
   type: time_table
@@ -33,18 +33,17 @@
       year: 2019-2020
       description:
         - 'Delivered lectures, tutoring sessions, and design classes for modules: Fluid Mechanics 2; Hydraulic Engineering 2; Hydraulic Design.'
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - 'Led training sessions on Hydraulic and hydrology tools: HEC-RAS (River Analysis System); Computer-based analysis of pipe networks.'
     
 - title: Research Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/SalikaThilakarathne/Beach-Vulnerability-Index">Beach Vulnerability Index</a>
       year: 2020-now
-      description: A novel appraoch to quantify beach properties related to their susceptibility and resilience to storm-induced erosion.
+      description: A novel approach to quantify beach properties related to their susceptibility and resilience to storm-induced erosion.
+    - title: 'Beach resilience: short-term beach recovery after storm events'
+      year: 2023-now
+      description: 10-day post-storm shoreline response were checked using 104 storm events.
 
 - title: Awards and Scholarships
   type: time_table
