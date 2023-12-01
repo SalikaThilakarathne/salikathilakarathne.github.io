@@ -7,74 +7,50 @@ importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Will soon be sharing an update on how I used a simple Artificial Neural Network (ANN) architecture to predict beach vulnerability.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+***
+This is how the sensitivity analysis was conducted to tune hyperparameters:
 
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    def NN_reg_mod(layers,neurons, learning_rate,patience,dropout,batch):
+    split_ratio_v = 0.90
+    split_ratio_ts = 0.90
+
+    temp_prof = all_storms
+    learning_rate = learning_rate
+        
+    X, y = temp_prof.loc[:,['duration_H', 'surge_sum', 'wave_R',
+                             'sl_initial', 'Hs_max']], temp_prof.loc[:,'beach_change':'beach_change']
+
+    <>x_train, y_train = X[:int(len(X)*split_ratio_ts)], pd.DataFrame(y[:int(len(y)*split_ratio_ts)])
+    <>x_test, y_test = X[int(len(X)*split_ratio_ts):], pd.DataFrame(y[int(len(y)*split_ratio_ts):])
+    
+    x_train, x_test,y_train,y_test = train_test_split(X,y,test_size = 0.2,random_state = 42)
+
+    x_train_scaled, x_test_scaled = scale_datasets(x_train, x_test)
+
+    es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=patience)
+
+
+    <>Creating model using the Sequential in tensorflow
+    model = Sequential()
+    for i in np.arange(1, layers+1,1):
+        model.add(Dense((neurons[i-1]), kernel_initializer='normal', activation='relu'))
+        model.add(Dropout(dropout))
+    Dense(1, kernel_initializer='normal', activation='linear')
+
+    msle = MeanSquaredError()
+    model.compile(loss=msle,optimizer=Adam(learning_rate=learning_rate),metrics=[msle])
+    <>train the model
+    history = model.fit(x_train_scaled.values,y_train.values,epochs=10000,batch_size=4,
+                        validation_split=(1-split_ratio_v), verbose=0, callbacks=[es])
+    train_accuracy = r2_score(y_train.beach_change,model.predict(x_train_scaled)[:,0].flatten())
+    test_accuracy = r2_score(y_test.beach_change,model.predict(x_test_scaled)[:,0].flatten())
+
+    return(train_accuracy,test_accuracy)
     ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
