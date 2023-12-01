@@ -23,7 +23,7 @@ This is how the sensitivity analysis was conducted to tune hyperparameters:
     X, y = temp_prof.loc[:,['duration_H', 'surge_sum', 'wave_R',
                              'sl_initial', 'Hs_max']], temp_prof.loc[:,'beach_change':'beach_change']
 
-   #x_train, y_train = X[:int(len(X)*split_ratio_ts)], pd.DataFrame(y[:int(len(y)*split_ratio_ts)])
+    #x_train, y_train = X[:int(len(X)*split_ratio_ts)], pd.DataFrame(y[:int(len(y)*split_ratio_ts)])
     #x_test, y_test = X[int(len(X)*split_ratio_ts):], pd.DataFrame(y[int(len(y)*split_ratio_ts):])
     
     x_train, x_test,y_train,y_test = train_test_split(X,y,test_size = 0.2,random_state = 42)
@@ -42,7 +42,7 @@ This is how the sensitivity analysis was conducted to tune hyperparameters:
 
     msle = MeanSquaredError()
     model.compile(loss=msle,optimizer=Adam(learning_rate=learning_rate),metrics=[msle])
-   #train the model
+    #train the model
     history = model.fit(x_train_scaled.values,y_train.values,epochs=10000,batch_size=4,
                         validation_split=(1-split_ratio_v), verbose=0, callbacks=[es])
     train_accuracy = r2_score(y_train.beach_change,model.predict(x_train_scaled)[:,0].flatten())
