@@ -1,6 +1,5 @@
-Setting up and modeling XBeach using Jupyter notebook
+Setting up and modeling XBeach using Jupyter Notebook
 ================
-Salika Thilakarathne
 May 4, 2018
 
 ## Prerequisites
