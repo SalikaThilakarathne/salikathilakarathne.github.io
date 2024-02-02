@@ -51,6 +51,6 @@ except ImportError:
     sys.path.append(os.path.abspath(os.path.join('..', '..', 'xbeach-toolbox')))
 ```
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{# {r setup, include=FALSE}
+#knitr::opts_chunk$set(echo = FALSE)
 ```
