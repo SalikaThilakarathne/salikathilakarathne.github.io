@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Institute for Coastal Systems,</p>
+    <p>Institute of Coastal Systems,</p>
     <p>Helmholtz-Zentrum Hereon, Geesthacht, Germany</p>
 
 news: true  # includes a list of news items
