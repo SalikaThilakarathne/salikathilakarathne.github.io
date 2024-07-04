@@ -9,3 +9,11 @@
 "JSCE":
   url: https://www.jstage.jst.go.jp/browse/journalofjsce/-char/en
   color: "#023e8a"
+
+"SR":
+  url: https://www.nature.com/srep/
+  color: "#29303C"
+
+"OE":
+  url: https://www.sciencedirect.com/journal/ocean-engineering
+  color: "#D6F2E4"
