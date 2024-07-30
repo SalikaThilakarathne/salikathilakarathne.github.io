@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Helmholtz-Zentrum Hereon</a>
+subtitle: <a href=https://www.hereon.de/index.php.en>Helmholtz-Zentrum Hereon</a>
 
 profile:
   align: right
