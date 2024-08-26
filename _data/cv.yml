@@ -12,14 +12,14 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Yokohama National University, Yokohama, Japan
+      institution: Yokohama National University, Japan
       year: 2023
       description:
         - title: Assessing the Beach Vulnerability to Storm-induced Erosion using an Index-based Approach
           contents:
             
     - title: Master of Science
-      institution: University of Moratuwa, Moratuwa, Sri Lanka
+      institution: University of Moratuwa, Sri Lanka
       year: 2019
       description:
         - A Case Study on Sustainable Restoration Approach for Cascade Reservoir Systems in Jaffna Municipal Council for Effective Flood Management.
@@ -28,7 +28,7 @@
   type: time_table
   contents:
     - title: Lecturer in Civil Engineering
-      institution: University of Moratuwa, Moratuwa, Sri Lanka
+      institution: University of Moratuwa, Sri Lanka
       year: 2019-2020
     
 - title: Research Projects
@@ -39,5 +39,5 @@
       description: A novel approach to quantify beach properties related to their susceptibility and resilience to storm-induced erosion.
     - title: 'Beach resilience: short-term beach recovery after storm events'
       year: 2023-2023
-      description: 10-day post-storm shoreline response were checked using 104 storm events.
+      description: 10-day post-storm shoreline responses were checked using 104 storm events.
 
