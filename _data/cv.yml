@@ -17,8 +17,7 @@
       description:
         - title: Assessing the Beach Vulnerability to Storm-induced Erosion using an Index-based Approach
           contents:
-            - Development of a beach vulnerability index
-            - Comprehensive discussions on beach vulnerability quantifications
+            
     - title: Master of Science
       institution: University of Moratuwa, Moratuwa, Sri Lanka
       year: 2019
@@ -32,40 +31,17 @@
       institution: University of Moratuwa, Moratuwa, Sri Lanka
       year: 2019-2020
       description:
-        - 'Delivered lectures, tutoring sessions, and design classes for modules: Fluid Mechanics 2; Hydraulic Engineering 2; Hydraulic Design.'
-        - 'Led training sessions on Hydraulic and hydrology tools: HEC-RAS (River Analysis System); Computer-based analysis of pipe networks.'
+        - 'Modules: Fluid Mechanics 2; Hydraulic Engineering 2; Hydraulic Design.'
     
 - title: Research Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/SalikaThilakarathne/Beach-Vulnerability-Index">Beach Vulnerability Index</a>
-      year: 2020-now
+      year: 2020-2023
       description: A novel approach to quantify beach properties related to their susceptibility and resilience to storm-induced erosion.
     - title: 'Beach resilience: short-term beach recovery after storm events'
-      year: 2023-now
+      year: 2023-2023
       description: 10-day post-storm shoreline response were checked using 104 storm events.
-
-- title: Awards and Scholarships
-  type: time_table
-  contents:
-    - year: 2019
-      items: 
-        - Tokyo Institute of Technology AOTULE Summer Program Award
-    - year: 2020
-      items: 
-        - 'Japanese Government (MEXT) Scholarship (2020): Full doctoral scholarship recommended by the Dept of Civil Engineering, Yokohama National University'
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Coastal Engineering
-      items: 
-        - Nearshore morphodynamics
-        - Beach vulnerability
-    - title: Catchment hydrology and urban flooding
-      items:
-        - 'Numerical simulation: HEC-RAS'
-        - Inundation mapping in Geographic information systems
 
 - title: Other Interests
   type: list
