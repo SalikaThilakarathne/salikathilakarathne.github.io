@@ -17,3 +17,7 @@
 "OE":
   url: https://www.sciencedirect.com/journal/ocean-engineering
   color: "#a2d2ff"
+
+"CFT":
+  url: https://www.cambridge.org/core/journals/cambridge-prisms-coastal-futures
+  color: "#3A9898"
