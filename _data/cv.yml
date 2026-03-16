@@ -10,7 +10,7 @@
     - name: Location
       value: Geesthacht, Germany
     - name: Email
-      value: salika.thilakarathne[at]hereon.de
+      value: salika[at]mail.de
 
 - title: Education
   type: time_table
@@ -30,27 +30,10 @@
   contents:
     - title: Research Associate
       institution: Helmholtz-Zentrum Hereon, Germany
-      year: May 2024–present
+      year: 2024–
     - title: Postdoctoral Researcher
       institution: Yokohama National University, Japan
-      year: Sep 2023–Apr 2024
+      year: 2023–2024
     - title: Lecturer in Civil Engineering
       institution: University of Moratuwa, Sri Lanka
-      year: Apr 2019–Apr 2020
-
-- title: Selected Publications
-  type: list
-  contents:
-    - "[2025] Thilakarathne S., Enayatighadikolaei H., Islam M.S., Suzuki T., Mäll M., Weisse R., *Wave storm dynamics and clustering, and their impacts on beach erosion*, Cambridge Prisms: Coastal Futures. DOI:10.1017/cft.2025.10012"
-    - "[2024] Enayatighadikolaei H., Suzuki T., Soltanpour M., Thilakarathne S., *Application of the Bruun rule in evaluating the effect of water level fall on the Caspian Sea profile evolution*, Coastal Engineering Journal. DOI:10.1080/21664250.2024.2422167"
-    - "[2024] Thilakarathne S., Suzuki T., Mäll M., Banno M., *Identifying key morphometrics to post-storm beach recovery through explainable AI*, Scientific Reports. DOI:10.1038/s41598-024-64023-6"
-    - "[2024] Islam M.S., Suzuki T., Thilakarathne S., *Physical modeling of sandbar dynamics...*, Ocean Engineering. DOI:10.1016/j.oceaneng.2024.118161"
-    - "[2024] Thilakarathne S., Suzuki T., Mäll M., *Machine learning-driven approach to quantify beach susceptibility to storm-induced erosion*, Coastal Engineering Journal. DOI:10.1080/21664250.2023.2288744"
-
-- title: Services
-  type: list
-  contents:
-    - Reviewer for Coastal Engineering Journal (Taylor & Francis)
-    - Reviewer for Environmental Monitoring and Assessment (Springer)
-    - Reviewer for Geo-Marine Letters (Springer)
-    - Reviewer for Ocean Engineering (Elsevier)
+      year: 2019–2020
