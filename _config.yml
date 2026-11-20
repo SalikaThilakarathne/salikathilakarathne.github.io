@@ -8,11 +8,11 @@ middle_name:
 last_name: Thilakarathne
 email: salika@mail.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  
+  Salika Thilakarathne, coastal scientist at Helmholtz-Zentrum Hereon. Research on wave storms, storm clusters, sandy beach erosion and recovery, nearshore morphodynamics and machine learning for coastal hazards. Developer of pycoastkit.
 footer_text: >
   Powered by Jekyll with al-folio theme.
   Hosted by GitHub Pages.
-keywords: # add your own keywords or leave empty
+keywords: Salika Thilakarathne, coastal science, coastal engineering, wave storms, storm clusters, beach erosion, beach recovery, shoreline change, sandbars, nearshore morphodynamics, coastal vulnerability, machine learning, Hasaki, Helmholtz-Zentrum Hereon, pycoastkit
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
