@@ -1,11 +1,8 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: resume
-nav: true
-nav_order: 3
-cv_pdf: resume_salika.pdf
-description: Working on updating my resume which includes further details on my academic qualifications, research projects, and relevant experience.
-toc:
-  sidebar: left
+nav: false
 ---
+
+<a href="{{ '/assets/pdf/resume_salika.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> Resume (PDF)</a>
