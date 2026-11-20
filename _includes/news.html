@@ -1,9 +1,12 @@
           <div class="news">
             {% if site.news != blank -%}
-            {%- assign news_size = site.news | size -%}
+            {%- assign news = site.news | reverse -%}
+            {%- comment -%} items with "home: false" are listed on /news/ only {%- endcomment -%}
+            {%- if include.limit %}{% assign news = news | where_exp: "item", "item.home != false" %}{% endif -%}
+            {%- assign news_size = news | size -%}
             <div class="table-responsive" {% if include.limit and site.announcements.scrollable and news_size > 3 %}style="max-height: 60vw"{% endif %}>
               <table class="table table-sm table-borderless">
-              {%- assign news = site.news | reverse -%}
+              {%- comment -%} news list assigned above {%- endcomment -%}
               {% if include.limit and site.announcements.limit %}
               {% assign news_limit = site.announcements.limit %}
               {% else %}

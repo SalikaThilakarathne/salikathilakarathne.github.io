@@ -2,6 +2,7 @@
 layout: post
 date: 2025-09-08
 inline: true
+home: false # listed on /news/ only, not on the home page
 related_posts: false
 ---
 
